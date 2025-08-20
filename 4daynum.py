@@ -1,7 +1,8 @@
 import numpy as np
 
-arr = np.array([[3, 2, 4], [5, 0, 1]])
+arr = np.array([41, 42, 43, 44])
+filterArr= arr>42
 
-x = np.sort(arr)
-
-print(x)
+newArr= arr[filterArr]
+print(filterArr)
+print(newArr)
