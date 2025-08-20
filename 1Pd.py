@@ -1,7 +1,11 @@
 import pandas as pd
-myDataSet = {
-    'car':['BMD', 'Marchendis', 'Toyota'],
-    'passing': [7,7,2]
+a= {
+    'colors':[700,800,900],
+    'duration': [1,5,7]
 }
-myVar = pd.DataFrame(myDataSet)
-print(myVar)
+
+arr =pd.DataFrame(a)
+print(arr.loc[[0,2]])
+
+df= pd.read_csv('academicStress.csv')
+print(df.to_string())
