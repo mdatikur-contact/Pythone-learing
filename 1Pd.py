@@ -1,3 +1,7 @@
 import pandas as pd
-df = pd.read_csv('academicStress.csv')
-print(df.to_string()) 
+myDataSet = {
+    'car':['BMD', 'Marchendis', 'Toyota'],
+    'passing': [7,7,2]
+}
+myVar = pd.DataFrame(myDataSet)
+print(myVar)
